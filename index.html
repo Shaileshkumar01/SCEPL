@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Coke Enterprises</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Sunrise Coke</div>
+        <input type="text" id="searchBar" placeholder="Search Products...">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to Sunrise Coke Enterprises</h1>
+        <p>Explore the finest quality coal and coke products</p>
+        <button onclick="location.href='#products'">Explore Products</button>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <!-- Example product -->
+            <div class="product">
+                <img src="/imgs/coal1.webp" alt="Product 1">
+                <h3>Coal</h3>
+                <p>High-quality coal for industrial use.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="/imgs/coke1.jpg" alt="Product 2">
+                <h3>Coke</h3>
+                <p>Reliable coke for manufacturing needs.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are Sunrise Coke Enterprises, dedicated to providing the best quality coal and coke products to industries worldwide.</p>
+    </section>
+
+    <section id="testimonials">
+        <h2>Customer Testimonials</h2>
+        <p>"Great products, excellent service!" - John Doe</p>
+        <p>"Highly recommend for bulk orders." - Jane Smith</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sunrise Coke Enterprises | Follow us on social media</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
